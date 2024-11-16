@@ -1,0 +1,185 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #1B1B1B;
+    color: #151515;
+}
+
+/* Header */
+header {
+    background: url('image/Banner.png') no-repeat center center; 
+    background-size: cover; 
+    color: #151515;
+    height: 300px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    padding: 0; 
+    width: 100%; 
+    box-sizing: border-box; 
+}
+
+
+
+/* Header h1 */
+header h1 {
+    margin: 0;
+}
+
+/* Navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center; 
+}
+
+nav ul li {
+    display: inline-block; 
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #151515;
+    text-decoration: none;
+}
+
+/* Main */
+main {
+    width: 90%; 
+    max-width: 1200px; 
+    margin: 20px auto;
+    font-family: 'Helvetica', 'Arial', sans-serif; 
+    font-weight: bold; 
+    color: #fff;
+}
+
+.section-title {
+    font-family: 'Helvetica', 'Arial', sans-serif; 
+    font-size: 32px;
+    text-align: center;
+    margin: 20px auto; 
+    color: #fff;
+}
+
+
+/* Grid */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+/* Card */
+.card {
+    background: #151515;
+    border-radius: 8px; 
+    border: 1px solid #CEA561; 
+    overflow: hidden; 
+    text-align: center; 
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
+}
+
+
+/* Imagen */
+.card img {
+    width: 90px; 
+    height: 150px; 
+    object-fit: contain; 
+    border-bottom: 2px solid #151515; 
+    background-color: #151515; 
+}
+
+/* Texto */
+.card p {
+    margin: 10px 0 0;
+    color: #fff;
+    font-size: 20px; 
+}
+
+/* Articles */
+article {
+    margin-bottom: 20px;
+}
+
+article h2 {
+    color: #fff; 
+    margin-bottom: 10px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #1B1B1B; 
+    color: #ccc; 
+    padding: 20px 0; 
+    font-family: 'Helvetica', 'Arial', sans-serif; 
+}
+
+/* Contenedor del pie de página */
+.footer-container {
+    display: flex;
+    justify-content: space-between; 
+}
+/* Columnas */
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    flex-grow: 1; 
+}
+
+/* Primera columna (logos) */
+.footer-social {
+    display: flex;
+    justify-content: center; 
+    gap: 15px; 
+    align-items: center; 
+    flex-grow: 3; 
+    flex-direction: row;
+}
+
+/* Estilo para las imágenes en la primera columna */
+.footer-social img {
+    width: 40px; 
+    height: 40px; 
+    object-fit: contain; 
+}
+
+/* Títulos de las columnas */
+.footer-column h3 {
+    font-weight: bold; 
+    color: #fff; 
+    margin-bottom: 10px; 
+    font-size: 15px; 
+    text-align: left; 
+}
+
+/* Listas */
+.footer-column ul {
+    list-style: none; 
+    padding: 0; 
+    margin: 0;
+}
+
+/* Elementos de las listas */
+.footer-column ul li {
+    margin: 5px 0; 
+    font-size: 13px; 
+    text-align: left; 
+}
+
+/* Enlaces clickeables */
+.footer-column ul li a {
+    color: #ccc; 
+    text-decoration: none; 
+    transition: color 0.3s; 
+}
+
+/* Hover en los enlaces */
+.footer-column ul li a:hover {
+    color: #CEA561; 
+}
